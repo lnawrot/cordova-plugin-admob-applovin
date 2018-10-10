@@ -1,0 +1,15 @@
+{
+  "name": "cordova-plugin-admob-applovin",
+  "version": "1.0.0",
+  "description": "Cordova AdMob Mediation Plugin for AppLovin",
+  "scripts": {
+    "version": "sync-package-version --cordova-plugin"
+  },
+  "cordova": {
+    "id": "cordova-plugin-admob-applovin",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  }
+}
