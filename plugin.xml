@@ -26,7 +26,7 @@
 
     <platform name="ios">
         <pods-config ios-min-version="9.0" use-frameworks="true" />
-        <pod id="GoogleMobileAdsMediationAppLovin" version="6.12.0.0" />
+        <pod id="GoogleMobileAdsMediationAppLovin" version="6.8.0.0" />
 
         <!-- Prevents compilation failures when using pod's id with additional mediations plugins -->
         <dependency id="cordova-plugin-cocoapod-support" />
