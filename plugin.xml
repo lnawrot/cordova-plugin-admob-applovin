@@ -13,11 +13,6 @@
     <platform name="android">
         <framework src="com.google.ads.mediation:applovin:9.14.7.0" />
 
-        <config-file target="AndroidManifest.xml" parent="/manifest/application">
-            <activity android:name="com.applovin.adview.AppLovinInterstitialActivity" android:configChanges="orientation|screenSize"/>
-            <activity android:name="com.applovin.adview.AppLovinConfirmationActivity" android:configChanges="orientation|screenSize"/>
-        </config-file>
-
         <!-- Prevents compilation error: https://developer.android.com/studio/build/multidex.html -->
         <!-- when add additional mediation plugins -->
         <dependency id="cordova-plugin-enable-multidex" />
