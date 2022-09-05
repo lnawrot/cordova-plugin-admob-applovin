@@ -11,7 +11,7 @@
     </engines>
 
     <platform name="android">
-        <framework src="com.google.ads.mediation:applovin:9.14.7.0" />
+        <framework src="com.google.ads.mediation:applovin:11.4.4.0" />
 
         <!-- Prevents compilation error: https://developer.android.com/studio/build/multidex.html -->
         <!-- when add additional mediation plugins -->
@@ -24,7 +24,7 @@
                 <source url="https://cdn.cocoapods.org/"/>
             </config>
             <pods use-frameworks="true">
-                <pod name="GoogleMobileAdsMediationAppLovin" spec="10.3.7.0"/>
+                <pod name="GoogleMobileAdsMediationAppLovin" spec="11.4.3.0"/>
             </pods>
         </podspec>
     </platform>
