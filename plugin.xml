@@ -11,7 +11,7 @@
     </engines>
 
     <platform name="android">
-        <framework src="com.google.ads.mediation:applovin:11.7.1.0" />
+        <framework src="com.google.ads.mediation:applovin:12.6.0.0" />
 
         <!-- Prevents compilation error: https://developer.android.com/studio/build/multidex.html -->
         <!-- when add additional mediation plugins -->
